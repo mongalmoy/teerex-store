@@ -50,7 +50,7 @@ const TeerexStore = () => {
   }, []);
 
   useEffect(() => {
-    setToastMessage(state.successMessage)
+    setToastMessage(state?.successMessage)
     setShowToast(true);
   }, [toastMessage])
 

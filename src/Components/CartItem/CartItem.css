@@ -1,0 +1,78 @@
+.cart-item {
+  display: flex;
+  justify-content: center;
+}
+.cart-item div {
+  /* margin: 8px 16px; */
+}
+.cart-name-img {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 8px 16px;
+  min-width: 230px;
+}
+.cart-img {
+  margin-right: 16px;
+}
+.cart-img img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+.cart-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-name h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 2px;
+}
+.cart-name p {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+.cart-quantity-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 16px;
+}
+.cart-qty {
+  padding: 6px 8px;
+  background-color: #CAE4DB;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.cart-qty div {
+  font-size: 16px;
+  margin: 0 4px;
+}
+.cart-qty .qty {
+  width: 56px;
+  display: flex;
+  justify-content: center;
+}
+.cart-qty div:not(:nth-child(2)) {
+  font-size: 20px;
+}
+.cart-delete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 16px;
+}
+.plus, .minus {
+  cursor: pointer;
+}
+
+
+
+

@@ -1,0 +1,126 @@
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: #a1a1a1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #3690cc;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1b6ba0;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.body_content, .home {
+  width: 100%;
+  display: flex;
+}
+.body_content {
+  /* height: calc(100vh - 64px); */
+  /* overflow-y: scroll; */
+  position: absolute;
+  top: 66px;
+}
+.home {
+  height: 100%;
+  position: relative;
+}
+.main {
+  width: calc(100vw - 260px);
+  position: relative;
+  padding: 32px 16px;
+}
+.main_content {
+  width: 100%;
+  /* height: calc(100% - 56px); */
+  position: relative;
+  /* overflow-y: scroll; */
+}
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.col-lg-4, .col-md-6, .col-sm-12 {
+  /* margin: 0 0 32px !important; */
+  padding: 1vw !important;
+  display: flex !important;
+  justify-content: center !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shopping-cart {
+  margin: 16px 32px;
+  width: 100%;
+  /* min-width: 600px; */
+}
+.shopping-cart h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.cart-item-container {
+  display: inline-flex;
+  width: 100%;
+  /* padding: 16px 0; */
+  max-height: 360px;
+  margin: 0;
+  overflow-y: scroll;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  margin-bottom: 16px;
+  /* border-bottom: 2px solid #6d6d6d; */
+  margin-bottom: 16px ;
+}
+.cart-items-table {
+  padding: 16px;
+}
+.total-amount h5 {
+  text-align: center;
+  font-size: 18px;
+}
+.total-amount h5 span {
+  font-weight: 700;
+}
+.divide-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divide-line hr {
+  width: 500px;
+}
+
+
+
+/*********** Media Query **************/
+
+@media only screen and (max-width : 600px) {
+  .shopping-cart {
+    width: 100%;
+    margin: 0;
+    padding: 16px 32px;
+  }
+  .shopping-cart h2 {
+    text-align: center;
+  }
+  .cart-qty span:nth-child(2) {
+    
+  }
+} 

@@ -1,0 +1,79 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #082546;
+    /* margin-bottom: 32px; */
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 2px 4px #082546;
+    /* margin-bottom: 8px; */
+}
+.header-heading {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 16px;
+    height: 100%;
+}
+.header-heading a {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+.header-heading a:hover {
+    color: #1e1e1e;
+}
+.header-heading h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+.header-links {
+    padding: 8px 16px;
+    display: flex;
+}
+.header-link-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 6px;
+    background-color: #082546;
+    color: #fff;
+}
+.header-link-item .product {
+    font-size: 20px;
+    /* border-bottom: 2px solid #9e9e9e; */
+}
+.header-link-item:last-child {
+    font-size: 28px;
+    padding: 10px;
+    margin-left: 6px;
+    border-radius: 4px;
+}
+.header-link-item:hover {
+    background-color: #163456;
+}
+.header-link-item .cart-count {
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    font-size: 14px;
+    margin: 3px;
+}
+
+.header-link-item a {
+    text-decoration: none;
+    position: relative;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.header-link-item a:hover {
+    color: #fff;
+}
+.header-link-item span {
+    color: #fff;
+}

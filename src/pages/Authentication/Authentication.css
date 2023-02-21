@@ -1,0 +1,127 @@
+.authentication-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #4e5052;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register-page {
+    padding: 32px;
+}
+.form-container {
+    box-shadow: 0 0 6px 3px #302c2c;
+    border-radius: 10px;
+}
+.welcome h2 {
+    font-size: 32px;
+    /* text-transform: uppercase; */
+    letter-spacing: 4px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.welcome h4 {
+    letter-spacing: 2px;
+}
+.left-container {
+    /* min-width: 500px; */
+    background-color: #082546;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.right-container {
+    /* min-width: 600px; */
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.register-container h4 {
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #042041;
+}
+.form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #042041;
+}
+.form-control {
+    font-size: 15px !important;
+    font-weight: 500;
+}
+.form-group {
+    width: 100%;
+}
+.column-container.col-lg-6.col-md-6.col-sm-12 {
+    padding-top: 0 !important;
+}
+.signup-link {
+    margin-left: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.or-btn-group.btn.btn-primary {
+    width: 100%;
+    background-color: #fff !important;
+    border: none;
+    outline: none;
+    color: #042041;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #d6d6d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.or-btn-group.btn.btn-primary:hover {
+    box-shadow: 0 0 3px 1px #d6d6d6;
+    position: relative;
+}
+.or-btn-group.btn.btn-primary div {
+    position: relative;
+    height: 100% !important;
+}
+
+.logo-flexbox-container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 100% !important;
+}
+.facebook-logo, .google-logo {
+    font-size: 24px;
+    margin-right: 4px;
+}
+.hr-text {
+    line-height: 1em;
+    text-align: center;
+    color: black;
+    outline: 0;
+    border: 0;
+    height: 1.5em;
+}
+.hr-text:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #494949, transparent);
+    /* background-color: #494949; */
+}
+.hr-text::after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    /* padding: 0.5em; */
+    line-height: 1.5em;
+    background-color: #fff;
+    padding: 0 0.5em;
+    color: #042041 !important;
+}

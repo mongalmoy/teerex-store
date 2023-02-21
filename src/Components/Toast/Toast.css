@@ -1,0 +1,27 @@
+.toast {
+  width: 450px !important;
+  margin: auto;
+}
+
+.toast-content {
+  padding: 15px;
+}
+
+.icon i {
+  font-size: 35px;
+}
+
+.toast.success {
+  border: 2px solid #14a44d !important;
+  color: #14a44d;
+}
+
+.toast.warning {
+  border: 2px solid #f9a02c !important;
+  color: #f9a02c;
+}
+
+.toast.erro {
+  border: 2px solid #d90429 !important;
+  color: #d90429;
+}

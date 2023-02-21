@@ -1,0 +1,40 @@
+{
+    "fullName" : {
+        "pattern" : {
+            "value" : "/[a-zA-Z]/",
+            "message" : "please enter full name"
+        }
+    },
+    "username" : {
+        "pattern" : {
+            "value" : "/[a-z0-9]/",
+            "message" : "please enter correct username"
+        }
+    },
+    "email" : {
+        "pattern" : {
+            "value" : "/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}$/i",
+            "message" : "please enter correct email"
+        }
+    },
+    "phone" : {
+        "pattern" : {
+            "value" : "/[0-9]/",
+            "message" : "please enter correct phone no"
+        },
+        "minLength" : {
+            "value" : 10,
+            "message" : "please enter at least 10 character"
+        },
+        "maxLength" : {
+            "value" : 10,
+            "message" : "please enter maximum 10 character"
+        }
+    },
+    "password" : {
+        "pattern" : {
+            "value" : "/[0-9a-zA-Z]/",
+            "message" : "please enter a correct password"
+        }
+    }
+}
